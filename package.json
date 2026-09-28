@@ -1,0 +1,17 @@
+{
+  "name": "loadlab-test-target",
+  "version": "1.0.0",
+  "description": "Standalone test-target server for LoadLab API load-testing platform",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/server.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
